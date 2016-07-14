@@ -3,6 +3,7 @@
 
   <include name="base-jb.xml"/>
 
+  <remote fetch="git://github.com/Bonstra/" name="bns"/>
   <default remote="caf" revision="jb_3.2" sync-j="4"/>
 
   <remove-project name="platform/external/bluetooth/bluedroid"/>
@@ -25,7 +26,7 @@
   <project name="librecovery" path="librecovery" remote="b2g" revision="v2.5"/>
   <project name="platform_bootable_recovery" path="bootable/recovery" remote="b2g" revision="openc-jb"/>
   <project name="platform/hardware/qcom/bt" path="hardware/qcom/bt" revision="jb_3.2.5_rb1.7" />
-  <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="b2g" revision="v2.5"/>
+  <project name="platform_system_bluetoothd" path="system/bluetoothd" remote="bns" revision="v2.5-unofficial"/>
   <project name="platform/external/wpa_supplicant_8" path="external/wpa_supplicant_8"/>
   <project name="platform/frameworks/av" path="frameworks/av" revision="b2g_jb_3.2"/>
   <project name="platform/frameworks/base" path="frameworks/base" revision="b2g_jb_3.2"/>
